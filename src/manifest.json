@@ -1,0 +1,22 @@
+{
+  "name": "Solvey SVG Optimizer",
+  "short_name": "Solvey SVG",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "imgs/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "imgs/maskable.png",
+      "sizes": "512x512",
+      "purpose": "maskable",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#000000",
+  "display": "standalone",
+  "start_url": "./",
+  "theme_color": "#000000"
+}

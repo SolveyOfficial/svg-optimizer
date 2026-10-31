@@ -1,0 +1,71 @@
+.floating-action-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: var(--surface-3);
+  color: var(--text);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 0; // Is this really needed?
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.1s ease-out;
+
+  @media (min-width: 640px) {
+    box-shadow: 0 4px 11px rgba(0, 0, 0, 0.3);
+  }
+
+  &:hover,
+  &.key-focused {
+    transform: scale(1.15);
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  .icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    fill: currentcolor;
+    z-index: 1;
+  }
+
+  .ripple {
+    background-color: var(--accent);
+  }
+
+  &.active {
+    background-color: var(--accent);
+    color: var(--on-accent);
+
+    .ripple {
+      background-color: var(--accent-light);
+    }
+  }
+
+  &.major-floating-action-button {
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: var(--accent);
+    color: var(--on-accent);
+
+    .spinner {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 56px;
+      height: 56px;
+      border-color: var(--on-accent);
+    }
+
+    .ripple {
+      background-color: var(--accent-light);
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.toolbar {
+  background-color: var(--surface-0);
+  color: var(--text);
+  display: flex;
+  align-items: center;
+}
+
+.menu-toolbar-item {
+  button {
+    padding: 10px 12px;
+  }
+
+  svg {
+    width: 24px;
+    height: 24px;
+    fill: var(--text);
+  }
+}

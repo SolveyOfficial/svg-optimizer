@@ -1,0 +1,24 @@
+@use 'theme';
+@use 'fonts';
+@use 'utils';
+@use 'global';
+@use 'components/main-menu';
+@use 'components/preloader';
+
+.unbutton {
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.toolbar,
+.main,
+.drop-overlay {
+  display: none;
+}

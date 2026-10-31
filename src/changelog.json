@@ -1,0 +1,6 @@
+[
+  {
+    "version": "1.0.0",
+    "changes": ["First release of Solvey SVG Optimizer, with SVGO v4"]
+  }
+]
