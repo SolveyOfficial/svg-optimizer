@@ -167,6 +167,7 @@ async function html() {
         description:
           'Easy & visual compression of SVG images, right in your browser.',
         iconPath: 'imgs/icon.png',
+        liveBaseUrl: 'https://solveyofficial.github.io/svg-optimizer/',
       }),
     )
     .pipe(

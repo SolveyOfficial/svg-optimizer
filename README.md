@@ -1,5 +1,7 @@
 # Solvey SVG Optimizer
 
+Live demo: https://solveyofficial.github.io/svg-optimizer/
+
 Solvey SVG Optimizer makes SVG files smaller. Open, paste or drop an SVG, pick
 the optimisations you want, compare the result with the original, and download
 or copy the optimised markup. The optimisation itself is done by SVGO.
@@ -48,6 +50,7 @@ npm start
 ```
 
 The contents of `build/` are static files and can be hosted on any web server.
+When the repository is public, every push to `main` is published to GitHub Pages.
 
 ## Third-party notices
 
